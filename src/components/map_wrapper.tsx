@@ -3,7 +3,7 @@ import { GoogleMap, useJsApiLoader, DirectionsRenderer, Marker } from '@react-go
 
 const containerStyle = {
   width: '100%',
-  height: '400px'
+  height: 'calc(100vh - 256px)'
 };
 
 function MapWrapper({ setDistance, setNextLeg, setTime }: {
